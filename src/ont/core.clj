@@ -3,4 +3,4 @@
   [:require [ont.ont]])
 
 (defn -main [& args]
-  (tawny.owl/save-ontology ont.ont/pizza "pizza.omn"))
+  (tawny.owl/save-ontology ont.ont/bio "pizza.omn"))
